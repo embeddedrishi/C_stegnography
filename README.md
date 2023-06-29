@@ -10,4 +10,44 @@ Features
 Prerequisites
 
     C compiler (supporting C99 or later)
+Usage
 
+    Clone the repository:
+
+    shell
+
+git clone https://github.com/your-username/steganography-c.git
+
+Compile the code:
+
+shell
+
+cd steganography-c
+gcc encode.c decode.c main.c -o steganography
+
+Run the program:
+
+    Encoding:
+
+    shell
+
+./steganography -e cover_image.bmp secret_file.txt
+
+Decoding:
+
+shell
+
+        ./steganography -d stego_image.bmp
+
+    Make sure to replace cover_image.bmp with your own cover image file and secret_file.txt with your own secret file.
+
+Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
+License
+
+T
+
+Feel free to customize the content and structure of the README file according to your project's needs. Make sure to update the repository link in the "Clone the repository" section with your own GitHub repository URL.
+
+Happy coding and collaborating!
